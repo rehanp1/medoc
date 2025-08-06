@@ -40,11 +40,11 @@
 
 #### Mark Sample Collected
 
-`PATCH /samples/:id/collect`
+`PATCH /samples/:sampleId/collect`
 
 #### Fetch Samples for an Agent
 
-`GET /agents/:agentId/samples`
+`GET /samples/agents/:agentId`
 
 #### Auth (Bonus)
 
@@ -56,7 +56,7 @@
 
 #### Report Sample Delay (Add-on)
 
-`PATCH /samples/:id/delay`
+`PATCH /samples/:sampleId/delay`
 
 ---
 
@@ -64,8 +64,9 @@
 
 Add screenshots of your Postman requests and responses here:
 
-![Add Sample](images/add-sample.png)
-![Mark Collected](images/mark-collected.png)
-![Fetch Samples](images/fetch-samples.png)
-![Auth](images/auth.png)
-![Report Delay](images/report-delay.png)
+![Add Sample](images/sample_add.png)
+![Mark Collected](images/sample_collect.png)
+![Fetch Samples](images/get_samples.png)
+![Auth](images/login.png)
+![Auth](images/signup.png)
+![Report Delay](images/sample_delay.png)

@@ -10,7 +10,7 @@ import { authenticate } from "../middleware/auth.middleware";
 const sampleRouter = Router();
 
 sampleRouter.post("/samples", authenticate, addSample);
-sampleRouter.get("/samples/agent/:agentId", authenticate, getSamples);
+sampleRouter.get("/samples/agents/:agentId", authenticate, getSamples);
 sampleRouter.patch(
   "/samples/:sampleId/collect",
   authenticate,

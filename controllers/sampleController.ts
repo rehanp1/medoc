@@ -41,7 +41,7 @@ export const markSampleDelay = async (req: Request, res: Response) => {
 
     const result = await Sample.updateOne(
       { _id: sampleId },
-      { status: "delay" }
+      { status: "delayed", delayed: true }
     );
 
     res

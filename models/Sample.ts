@@ -5,7 +5,7 @@ export interface SampleType {
   hospitalId: string;
   status: "pending" | "collected" | "delayed";
   scheduledAt: Date;
-  collectedAt?: Date | null;
+  collectedAt?: Date;
   delayed?: boolean;
 }
 
