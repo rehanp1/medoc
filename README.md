@@ -64,7 +64,7 @@
 
 Add screenshots of your Postman requests and responses here:
 
-#### Authenctication
+#### Authenication
 ![Auth](images/login.png)
 ![Auth](images/signup.png)
 
