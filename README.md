@@ -5,7 +5,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/rehanp1/medoc
    cd medoc
    ```
 
@@ -64,9 +64,18 @@
 
 Add screenshots of your Postman requests and responses here:
 
-![Add Sample](images/sample_add.png)
-![Mark Collected](images/sample_collect.png)
-![Fetch Samples](images/get_samples.png)
+Authenctication
 ![Auth](images/login.png)
 ![Auth](images/signup.png)
+
+#### Add Sample
+![Add Sample](images/sample_add.png)
+
+#### Mark Collected
+![Mark Collected](images/sample_collect.png)
+
+#### Fetch Samples for the Agent
+![Fetch Samples](images/get_samples.png)
+
+#### Report Delayed
 ![Report Delay](images/sample_delay.png)
